@@ -19,7 +19,7 @@ function About() {
   return (
     <>
       <div className="min-h-screen w-full flex items-center  md:flex-row flex-col-reverse justify-between p-4 md:mt-0 mt-24">
-        <div class=""></div>
+        <div className=""></div>
         <div className="text-center flex flex-col gap-y-10">
           <div>
             <h1 className=" transform duration-300 border-transparent hover:border-b-orange-500 border-4 border-spacing-4 text-4xl font-semibold tracking-wider mb-2 w-fit m-auto">

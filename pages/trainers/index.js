@@ -28,7 +28,7 @@ function Trainer() {
                   <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
                     Sarah Smith
                   </h1>
-                  <p class="leading-relaxed lg:text-sm text-[10px] text-sm">
+                  <p class="leading-relaxed lg:text-sm text-[10px]">
                     Sarah is a certified personal trainer with over 10 years of
                     experience in strength training. She has worked with clients
                     of all ages and fitness levels, helping them to build

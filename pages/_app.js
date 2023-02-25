@@ -23,10 +23,7 @@ export default function App({ Component, pageProps }) {
           <button className="bg-gray-800 text-white px-6 h-10 rounded">
             <BiMenu />
           </button>
-          <div
-            tabindex="0"
-            className="border-2 bg-black/[0.5] invisible border-gray-800 rounded w-24 absolute right-0 top-full transition-all opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-y-1"
-          >
+          <div className="border-2 bg-black/[0.5] invisible border-gray-800 rounded w-24 absolute right-0 top-full transition-all opacity-0 group-hover:visible group-hover:opacity-100 group-hover:translate-y-1">
             <ul className="py-1">
               <li>
                 <Link href={"/"} className="block px-4 py-2 hover:bg-cyan-800">
