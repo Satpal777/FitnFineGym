@@ -1,5 +1,5 @@
 import React from "react";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import animationData from "../../public/gym.json";
 import areaMap from "../../public/area-map.json";
 import locationPointer from "../../public/location-pointer.json";
