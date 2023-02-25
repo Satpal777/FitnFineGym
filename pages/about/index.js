@@ -7,15 +7,6 @@ import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import { BiPhoneCall } from "react-icons/bi";
 function About() {
-  const defaultOptions = function (name) {
-    return {
-      loop: true,
-      autoplay: true,
-      outerWidth: "100%",
-      animationData: name,
-      renderer: "svg",
-    };
-  };
   return (
     <>
       <div className="min-h-screen w-full flex items-center  md:flex-row flex-col-reverse justify-between p-4 md:mt-0 mt-24">
@@ -75,7 +66,7 @@ function About() {
         </div>
         <div className="md:w-1/2 ">
           <Lottie
-            options={defaultOptions(animationData)}
+            animationData={animationData}
             height={"100%"}
             width={"100%"}
           />
@@ -87,8 +78,12 @@ function About() {
             Locate us!
           </h1>
           <div className="flex items-center sm:flex-row flex-col-reverse justify-evenly flex-1">
-            <div className="relative">
-              <Lottie options={defaultOptions(locationPointer)} width={"50%"} />
+            <div className="relative w-full">
+              <Lottie
+                className="w-1/2 m-auto"
+                animationData={locationPointer}
+                width={"50%"}
+              />
               <div className="absolute  -bottom-12  sm:bottom-5 sm:-left-4 left-0 w-full ">
                 <h1 className="border w-fit m-auto bg-white/[0.2] p-2 rounded  border-white shadow-md shadow-cyan-500">
                   AA-33 XYZ Heights , Ahmedabad, Gujarat, India
@@ -121,8 +116,12 @@ function About() {
                 </div>
               </div>
             </div>
-            <div>
-              <Lottie options={defaultOptions(areaMap)} width={"50%"} />
+            <div className="w-full">
+              <Lottie
+                animationData={areaMap}
+                className="w-1/2 m-auto"
+                width={"50%"}
+              />
             </div>
           </div>
         </div>
